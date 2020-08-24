@@ -1,0 +1,87 @@
+body 
+{
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  padding: 0;  
+}
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+
+li
+{
+  float: left;
+}
+
+li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover 
+{
+  background-color: grey;
+}
+
+.bg
+{
+  background-image: url("../images/1.jpg");
+  height: 1050px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+/*Image of all the music videos with latest release*/
+.limage0
+{
+  float: left;
+  margin-left:350px;
+  padding: 0;
+}
+.limage1
+{
+  float: left;
+  margin-left: 0px;
+  padding: 0;
+}
+.limage2
+{
+  float: left;
+  width: 0px;
+}
+.limage3
+{
+  float:left;
+  margin-left:350px;
+}
+
+.limage4
+{
+  float:left;
+  margin-left:0px;
+}
+.limage5
+{
+  float:left;
+  margin-left:0px;
+}
+/*Image of all the music videos with latest release*/
+
+.footer
+{
+  bottom: 10px;
+  width: 100%;
+}
