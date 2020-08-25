@@ -1,87 +1,104 @@
-body 
+.body
 {
-  width: 100%;
-  height: 50%;
-  margin: 0;
-  padding: 0;  
+  background-color: #CCEEFF;
 }
 
-ul 
-{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #111;
-}
 
-li
-{
-  float: left;
-}
-
-li a 
-{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover 
-{
-  background-color: grey;
-}
-
-.bg
-{
-  background-image: url("../images/1.jpg");
-  height: 1050px;
-  width: 100%;
+.jumbotron {
+  background-color: #000;
+  /*text-align: center;*/
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+    background-position: top;
+    /*background-size: cover;*/
 }
 
-
-/*Image of all the music videos with latest release*/
-.limage0
-{
-  float: left;
-  margin-left:350px;
-  padding: 0;
-}
-.limage1
-{
-  float: left;
-  margin-left: 0px;
-  padding: 0;
-}
-.limage2
-{
-  float: left;
-  width: 0px;
-}
-.limage3
-{
-  float:left;
-  margin-left:350px;
+.jumbotron h1 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-.limage4
-{
-  float:left;
-  margin-left:0px;
+.jumbotron p, .jumbotron small {
+  color: #929292;
 }
-.limage5
-{
-  float:left;
-  margin-left:0px;
-}
-/*Image of all the music videos with latest release*/
 
-.footer
+@media (min-width: 576px)
 {
-  bottom: 10px;
-  width: 100%;
+  .jumbotron
+    {
+      padding: 6rem 2rem;
+      height: 900px;
+      text-align: center;
+      background-image: url('../images/1.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+  .ade-btn-buy 
+    {
+      padding-top: 200px;
+    }
 }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  padding-right: 1em;
+  padding-left: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: monospace, serif;
+}
+
+.navbar-brand
+{
+ font-family: monospace, serif;
+ text-transform: uppercase;
+ color: #fff;
+}
+
+/*For Contact*/
+/*body{
+    background-color: #25274d;
+  }*/
+  .contact{
+    padding: 4%;
+    height: 400px;
+  }
+  .col-md-3{
+    background: #ff9b00;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    opacity: 80%;
+  }
+  .contact-info{
+    margin-top:10%;
+  }
+  .contact-info img{
+    margin-bottom: 15%;
+  }
+  .contact-info h2{
+    margin-bottom: 10%;
+  }
+  .col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    opacity: 80%;
+  }
+  .contact-form label{
+    font-weight:600;
+  }
+  .contact-form button{
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+  }
+  .contact-form button:focus{
+    box-shadow:none;
+  }
